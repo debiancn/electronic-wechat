@@ -1,0 +1,5 @@
+#!/usr/bin/dh-exec
+electronic-wechat-linux-x64/* /usr/lib/electronic-wechat/
+debian/source/electronic-wechat /usr/bin/
+debian/electronic-wechat.desktop /usr/share/applications/
+debian/source/icons/* /usr/share/icons/hicolor/

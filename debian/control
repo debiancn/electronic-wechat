@@ -1,0 +1,16 @@
+Source: electronic-wechat
+Section: web
+Priority: optional
+Maintainer: Boyuan Yang <073plan@gmail.com>
+Build-Depends:
+ debhelper (>= 10),
+ dh-exec,
+Standards-Version: 3.9.8
+Homepage: https://github.com/geeeeeeeeek/electronic-wechat
+Vcs-Git: https://github.com/debiancn/electronic-wechat
+Vcs-Browser: https://github.com/debiancn/electronic-wechat
+
+Package: electronic-wechat
+Architecture: amd64
+Description: Unofficial WeChat client for Linux
+ A better WeChat on macOS and Linux. Built with Electron.

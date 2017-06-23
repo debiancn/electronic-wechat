@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# A wrapper for real electronic-wechat binary.
+#
+# Written by Boyuan Yang.
+#
+# This file shares the same license as electronic-wechat
+# software.
+
+PACKAGE_NAME="electronic-wechat"
+EW_BASEDIR="/usr/lib/${PACKAGE_NAME}"
+
+cd "${EW_BASEDIR}" || exit 1
+exec ./electronic-wechat "$@"
